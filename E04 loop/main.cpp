@@ -36,7 +36,7 @@ void WhileLoop() {
 // init-expression and loop-expression can contain multiple statements separated by commas.
 void MultipleStatements() {
     int i, j;
-    for (i = 5, j = 10; i + j<20; i++, j++)
+    for (i = 5, j = 10; i + j < 20; i++, j++)
         cout << "i + j = " << (i + j) << ' ';
     // Output: 15 17 19
 }
